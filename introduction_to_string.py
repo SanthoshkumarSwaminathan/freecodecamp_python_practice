@@ -52,3 +52,10 @@ num1=23
 num2=34
 
 print(f"sum of {num1} and {num2} is {num1+num2}")
+
+# Note how you don't need to convert non-string types with the str() function. 
+# In the example above, 
+# the value of the age, 
+# num1, 
+# and num2 variables is converted under the hood into a string during the interpolation process.
+
