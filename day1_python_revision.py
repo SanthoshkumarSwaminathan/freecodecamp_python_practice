@@ -29,7 +29,7 @@ print(my_dictionary_var)
 
 # tuple an immutable ordered collection of unclosed in parantheses
 my_tuple_var = (1,2,1,"sk",2.3)
-print(my_tuple_var)
+print('Tuple :', my_tuple_var)
 print(my_tuple_var)
 # range a sequence of numbers often used in loops
 
