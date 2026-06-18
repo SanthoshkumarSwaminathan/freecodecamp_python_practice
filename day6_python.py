@@ -195,3 +195,8 @@ print(bool(True))
 print(bool(1))
 print(bool('Hello hi'))
 print(bool(0.1))
+
+# Now that you understand truthy and falsy values, we can take a look at Boolean operators, which are also known as logical operators. These are special operators that allow you to combine multiple expressions to create more complex decision-making logic in your code.
+
+# There are three Boolean operators in Python: and, or, and not.
+
