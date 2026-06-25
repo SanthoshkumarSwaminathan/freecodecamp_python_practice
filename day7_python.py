@@ -56,3 +56,19 @@ print(not 0)
 print(not 1)
 print(not False)
 print(not True)
+
+#It is common to use the not operator in conditionals to check if something is not True or False, like this:
+
+is_admin = False
+
+if not is_admin:
+    print('Access denied for non-administrators.')
+else:
+    print('Welcome, Administrator!')
+
+#Since is_admin is False, then not is_admin is saying not False which is True. So the message Access denied for non-administrators. will be printed.\
+
+# Now that you understand truthy and falsy values, the and, or, and not operators, and how short-circuiting works, you can write more flexible and readable conditional logic.
+
+
+ 
