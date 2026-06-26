@@ -62,3 +62,5 @@ def calculate_sum(a, b):
 
 my_sum = calculate_sum(3,1)
 print(my_sum)
+
+#Now, calculate_sum returns the sum of a and b, which gets stored in my_sum.
